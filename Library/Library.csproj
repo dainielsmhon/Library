@@ -67,25 +67,170 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\Library.mdf" />
+    <Compile Include="App_Data\Library.mdf" />
     <Content Include="App_Data\Library_log.ldf">
       <DependentUpon>Library.mdf</DependentUpon>
     </Content>
+    <Content Include="LibraryAdmin\assets\avatars\face-1.jpg" />
+    <Content Include="LibraryAdmin\assets\avatars\face-2.jpg" />
+    <Content Include="LibraryAdmin\assets\avatars\face-3.jpg" />
+    <Content Include="LibraryAdmin\assets\avatars\face-4.jpg" />
+    <Content Include="LibraryAdmin\assets\avatars\face-5.jpg" />
+    <Content Include="LibraryAdmin\assets\avatars\face-6.jpg" />
+    <Content Include="LibraryAdmin\assets\avatars\face-7.jpg" />
+    <Content Include="LibraryAdmin\assets\avatars\face-8.jpg" />
+    <Content Include="LibraryAdmin\assets\images\logo.svg" />
+    <Content Include="LibraryAdmin\assets\images\qrcode.svg" />
+    <Content Include="LibraryAdmin\assets\products\p1.jpg" />
+    <Content Include="LibraryAdmin\assets\products\p2.jpg" />
+    <Content Include="LibraryAdmin\assets\products\p3.jpg" />
+    <Content Include="LibraryAdmin\assets\products\p4.jpg" />
+    <Content Include="LibraryAdmin\auth-confirm.html" />
+    <Content Include="LibraryAdmin\auth-login-half.html" />
+    <Content Include="LibraryAdmin\auth-login.html" />
+    <Content Include="LibraryAdmin\auth-register.html" />
+    <Content Include="LibraryAdmin\auth-resetpw.html" />
+    <Content Include="LibraryAdmin\calendar.html" />
+    <Content Include="LibraryAdmin\chart-apexcharts.html" />
+    <Content Include="LibraryAdmin\chart-chartjs.html" />
+    <Content Include="LibraryAdmin\chart-inline.html" />
+    <Content Include="LibraryAdmin\contacts-grid.html" />
+    <Content Include="LibraryAdmin\contacts-list.html" />
+    <Content Include="LibraryAdmin\contacts-new.html" />
+    <Content Include="LibraryAdmin\css\apexcharts.css" />
+    <Content Include="LibraryAdmin\css\app-dark.css" />
+    <Content Include="LibraryAdmin\css\app-light.css" />
+    <Content Include="LibraryAdmin\css\app-rtl.css" />
+    <Content Include="LibraryAdmin\css\bootstrap-datepicker.css" />
+    <Content Include="LibraryAdmin\css\dataTables.bootstrap4.css" />
+    <Content Include="LibraryAdmin\css\daterangepicker.css" />
+    <Content Include="LibraryAdmin\css\dropzone.css" />
+    <Content Include="LibraryAdmin\css\dropzone.min.css" />
+    <Content Include="LibraryAdmin\css\feather.css" />
+    <Content Include="LibraryAdmin\css\fullcalendar.css" />
+    <Content Include="LibraryAdmin\css\jquery.steps.css" />
+    <Content Include="LibraryAdmin\css\jquery.timepicker.css" />
+    <Content Include="LibraryAdmin\css\perfect-scrollbar.css" />
+    <Content Include="LibraryAdmin\css\quill.snow.css" />
+    <Content Include="LibraryAdmin\css\select2-bootstrap4.css" />
+    <Content Include="LibraryAdmin\css\select2.css" />
+    <Content Include="LibraryAdmin\css\simplebar.css" />
+    <Content Include="LibraryAdmin\css\uppy.min.css" />
+    <Content Include="LibraryAdmin\dashboard-analytics.html" />
+    <Content Include="LibraryAdmin\dashboard-saas.html" />
+    <Content Include="LibraryAdmin\dashboard-sales.html" />
+    <Content Include="LibraryAdmin\dashboard-system.html" />
+    <Content Include="LibraryAdmin\datamaps.html" />
+    <Content Include="LibraryAdmin\Default.aspx" />
+    <Content Include="LibraryAdmin\files-grid.html" />
+    <Content Include="LibraryAdmin\files-list.html" />
+    <Content Include="LibraryAdmin\fonts\feather.svg" />
+    <Content Include="LibraryAdmin\form_advanced.html" />
+    <Content Include="LibraryAdmin\form_elements.html" />
+    <Content Include="LibraryAdmin\form_layouts.html" />
+    <Content Include="LibraryAdmin\form_upload.html" />
+    <Content Include="LibraryAdmin\form_validation.html" />
+    <Content Include="LibraryAdmin\form_wizard.html" />
+    <Content Include="LibraryAdmin\index-boxed.html" />
+    <Content Include="LibraryAdmin\index-horizontal.html" />
+    <Content Include="LibraryAdmin\index-vertical.html" />
+    <Content Include="LibraryAdmin\index.html" />
+    <Content Include="LibraryAdmin\js\apexcharts.custom.js" />
+    <Content Include="LibraryAdmin\js\apexcharts.min.js" />
+    <Content Include="LibraryAdmin\js\apps.js" />
+    <Content Include="LibraryAdmin\js\bootstrap-datepicker.min.js" />
+    <Content Include="LibraryAdmin\js\bootstrap.min.js" />
+    <Content Include="LibraryAdmin\js\Chart.min.js" />
+    <Content Include="LibraryAdmin\js\config.js" />
+    <Content Include="LibraryAdmin\js\d3.min.js" />
+    <Content Include="LibraryAdmin\js\datamaps-zoomto.js" />
+    <Content Include="LibraryAdmin\js\datamaps.all.min.js" />
+    <Content Include="LibraryAdmin\js\datamaps.custom.js" />
+    <Content Include="LibraryAdmin\js\dataTables.bootstrap4.min.js" />
+    <Content Include="LibraryAdmin\js\daterangepicker.js" />
+    <Content Include="LibraryAdmin\js\dropzone.min.js" />
+    <Content Include="LibraryAdmin\js\fullcalendar.custom.js" />
+    <Content Include="LibraryAdmin\js\fullcalendar.js" />
+    <Content Include="LibraryAdmin\js\gauge.min.js" />
+    <Content Include="LibraryAdmin\js\jquery.dataTables.min.js" />
+    <Content Include="LibraryAdmin\js\jquery.mask.min.js" />
+    <Content Include="LibraryAdmin\js\jquery.min.js" />
+    <Content Include="LibraryAdmin\js\jquery.sparkline.min.js" />
+    <Content Include="LibraryAdmin\js\jquery.steps.min.js" />
+    <Content Include="LibraryAdmin\js\jquery.stickOnScroll.js" />
+    <Content Include="LibraryAdmin\js\jquery.timepicker.js" />
+    <Content Include="LibraryAdmin\js\jquery.validate.min.js" />
+    <Content Include="LibraryAdmin\js\moment.min.js" />
+    <Content Include="LibraryAdmin\js\perfect-scrollbar.min.js" />
+    <Content Include="LibraryAdmin\js\popper.min.js" />
+    <Content Include="LibraryAdmin\js\quill.min.js" />
+    <Content Include="LibraryAdmin\js\select2.min.js" />
+    <Content Include="LibraryAdmin\js\simplebar.min.js" />
+    <Content Include="LibraryAdmin\js\tinycolor-min.js" />
+    <Content Include="LibraryAdmin\js\topojson.min.js" />
+    <Content Include="LibraryAdmin\js\uppy.min.js" />
+    <Content Include="LibraryAdmin\page-404.html" />
+    <Content Include="LibraryAdmin\page-500.html" />
+    <Content Include="LibraryAdmin\page-blank.html" />
+    <Content Include="LibraryAdmin\page-invoice.html" />
+    <Content Include="LibraryAdmin\page-orders.html" />
+    <Content Include="LibraryAdmin\page-timeline.html" />
+    <Content Include="LibraryAdmin\profile-notification.html" />
+    <Content Include="LibraryAdmin\profile-security.html" />
+    <Content Include="LibraryAdmin\profile-settings.html" />
+    <Content Include="LibraryAdmin\profile.html" />
+    <Content Include="LibraryAdmin\support-center.html" />
+    <Content Include="LibraryAdmin\support-faqs.html" />
+    <Content Include="LibraryAdmin\support-ticket-detail.html" />
+    <Content Include="LibraryAdmin\support-tickets.html" />
+    <Content Include="LibraryAdmin\table_advanced.html" />
+    <Content Include="LibraryAdmin\table_basic.html" />
+    <Content Include="LibraryAdmin\table_datatables.html" />
+    <Content Include="LibraryAdmin\ui-buttons.html" />
+    <Content Include="LibraryAdmin\ui-color.html" />
+    <Content Include="LibraryAdmin\ui-icons.html" />
+    <Content Include="LibraryAdmin\ui-modals.html" />
+    <Content Include="LibraryAdmin\ui-notification.html" />
+    <Content Include="LibraryAdmin\ui-progress.html" />
+    <Content Include="LibraryAdmin\ui-tabs-accordion.html" />
+    <Content Include="LibraryAdmin\ui-typograpy.html" />
+    <Content Include="LibraryAdmin\widgets.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Code\BLL\Books.cs" />
+    <Compile Include="App_Code\BLL\Book.cs" />
     <Compile Include="App_Code\BLL\Borrow.cs" />
-    <Compile Include="App_Code\BLL\Suppliers.cs" />
-    <Compile Include="App_Code\BLL\Users.cs" />
-    <Compile Include="App_Code\DAL\BooksDAL.cs" />
+    <Compile Include="App_Code\BLL\Supplier.cs" />
+    <Compile Include="App_Code\BLL\User.cs" />
+    <Compile Include="App_Code\DAL\BookDAL.cs" />
     <Compile Include="App_Code\DAL\BorrowDAL.cs" />
-    <Compile Include="App_Code\DAL\SuppliersDAL.cs" />
-    <Compile Include="App_Code\DAL\UsersDAL.cs" />
+    <Compile Include="App_Code\DAL\SupplierDAL.cs" />
+    <Compile Include="App_Code\DAL\UserDAL.cs" />
     <Compile Include="App_Code\DbContext.cs" />
+    <Compile Include="LibraryAdmin\AdminMaster.Master.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LibraryAdmin\AdminMaster.Master.designer.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryAdmin\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LibraryAdmin\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="LibraryAdmin\data\contacts.json" />
+    <Content Include="LibraryAdmin\data\eu.topo.json" />
+    <Content Include="LibraryAdmin\fonts\feather.eot" />
+    <Content Include="LibraryAdmin\fonts\feather.ttf" />
+    <Content Include="LibraryAdmin\fonts\feather.woff" />
+    <Content Include="LibraryAdmin\.DS_Store" />
+    <Content Include="LibraryAdmin\AdminMaster.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
