@@ -10,9 +10,7 @@ namespace BLL
     public class Supplier
     {
         public int SupplierId { get; set; }
-
         public string SupplierName { get; set; }
-
         public string SAddress { get; set; }
         public string SPhone { get; set; }
         public string SWeb { get; set; }
@@ -20,6 +18,7 @@ namespace BLL
         public DateTime Added { get; set; }
         public string Contact { get; set; }
 
+        
 
         public int Save()//הוספה/עדכון
         {

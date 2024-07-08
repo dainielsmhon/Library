@@ -4,12 +4,15 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Security.Policy;
 using System.Web;
+using System.Xml.Linq;
 
 namespace DAL
 {
     public class UserDAL
     {
+
 
         public static User GetById(int id)
         {
@@ -17,14 +20,22 @@ namespace DAL
             DbContext Db = new DbContext();
             string Sql = $" SELECT * FROM T_User WHERE UserId={id}";
             DataTable Dt = Db.Execute(Sql);
-
             if (Dt.Rows.Count > 0)
+
             {
+               
                 Tmp = new User()
                 {
-                    UserId = int.Parse(Dt.Rows[0]["UserId"] + ""),//תווים מהשורה הראשונה
+                    UserId = int.Parse(Dt.Rows[0]["UserId"] + ""),
                     UserName = Dt.Rows[0]["UserName"] + "",
-                    Added = DateTime.Parse(Dt.Rows[0]["Added"] + "")
+                    Name = Dt.Rows[0]["Name"] + "",
+                    UserPass = Dt.Rows[0]["UserPass"] + "",
+                    Email = Dt.Rows[0]["Email"] + "",
+                    Phone = Dt.Rows[0]["Phone"] + "",
+                    Adress = Dt.Rows[0]["Adress"] + "",
+                    Added = DateTime.Parse(Dt.Rows[0]["Added"] + ""),
+                    JoinDate = DateTime.Parse(Dt.Rows[0]["JoinDate"] + "")
+                    
 
                 };
             }
@@ -42,9 +53,15 @@ namespace DAL
             {
                 User Tmp = new User()
                 {
-                    UserId = int.Parse(Dt.Rows[i]["UserId"] + ""),
-                    UserName = Dt.Rows[i]["UserName"] + "",
-                    Added = DateTime.Parse(Dt.Rows[i]["Added"] + "")
+                    UserId = int.Parse(Dt.Rows[0]["UserId"] + ""),
+                    UserName = Dt.Rows[0]["UserName"] + "",
+                    Name = Dt.Rows[0]["Name"] + "",
+                    UserPass = Dt.Rows[0]["UserPass"] + "",
+                    Email = Dt.Rows[0]["Email"] + "",
+                    Phone = Dt.Rows[0]["Phone"] + "",
+                    Adress = Dt.Rows[0]["Adress"] + "",
+                    Added = DateTime.Parse(Dt.Rows[0]["Added"] + ""),
+                    JoinDate = DateTime.Parse(Dt.Rows[0]["JoinDate"] + "")
 
                 };//מוסיף לרשימה 
                 LstTmp.Add(Tmp);
@@ -74,11 +91,24 @@ namespace DAL
             string Sql = "";
             if (Tmp.UserId == -1)
             {
-                Sql = $"INSERT INTO t_User (CitiName) Values(N'{Tmp.UserName}')";
+
+                Sql = $"INSERT INTO t_Agent (UserId,Name,UserName,UserPass,Email,Phone,Adress,Added,JoinDate) Values ";
+                Sql += $" (N'{Tmp.UserId}',N'{Tmp.Name}',N'{Tmp.UserName}',N'{Tmp.UserPass}',N'{Tmp.Email}',N'{Tmp.Phone}',N'{Tmp.Adress}',{Tmp.Added.ToString("yyyy-MM-dd")}''{Tmp.JoinDate.ToString("yyyy-MM-dd")}')";
             }
             else
+                
             {
-                Sql = $"UPDATE T_User set UserName=N'{Tmp.UserName}' WHERE UserId={Tmp.UserId}";
+                Sql = $"UPDATE T_Agent set ";
+                Sql += $"UserId=N'{Tmp.UserId}', ";
+                Sql += $"UserName=N'{Tmp.UserName}', ";
+                Sql += $"Name=N'{Tmp.Name}', ";
+                Sql += $"UserPass=N'{Tmp.UserPass}', ";
+                Sql += $"Email=N'{Tmp.Email}', ";
+                Sql += $"Phone=N'{Tmp.Phone}', ";
+                Sql += $"Adress=N'{Tmp.Adress}', ";
+                Sql += $"Added='{Tmp.Added.ToString("yyyy-MM-dd")}' ";
+                Sql += $"JoinDate='{Tmp.JoinDate.ToString("yyyy-MM-dd")}' ";
+                Sql += $" WHERE UserId={Tmp.UserId}";
             }
 
             RecCount = Db.ExecuteNonQuery(Sql);

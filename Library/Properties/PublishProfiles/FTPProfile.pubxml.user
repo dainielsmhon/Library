@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcgn4cHWWGE2HBX/gQvOd4gAAAAACAAAAAAAQZgAAAAEAACAAAABHX1Ej8Xeufk0Xpv+Fzt88ppF/lUAp5m6INebxcw/qZgAAAAAOgAAAAAIAACAAAADLZtoucwysZaa7AGU25K+3AAa5T8JT6oYHTumuSQCTpSAAAACsth8xFXeM/IbH8iDbCpgVVVCkzsd8aEx5opu6z1gYo0AAAACb+lF7Oma3oGlQya9r51/GZSmr3Hb1hP3xTd0tbHZJ9FcgpvzUtTngPWW5P2LiP6fmCPeqOhWQHQ/0yJJfVpJ9</EncryptedPassword>
+    <History>True|2024-07-08T11:28:15.8969586Z||;True|2024-07-04T17:40:28.6992277+03:00||;True|2024-07-03T22:09:04.3440597+03:00||;False|2024-07-03T21:48:28.2625017+03:00||;False|2024-07-01T21:13:20.4856457+03:00||;</History>
+    <LastFailureDetails />
+    <_PublishTargetUrl>ftp://198.37.116.29/www.srtg45.somee.com</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Data/Library.mdf">
+      <publishTime>07/07/2024 22:08:01</publishTime>
+    </File>
+    <File Include="App_Data/Library_log.ldf">
+      <publishTime>07/07/2024 22:08:01</publishTime>
+    </File>
+    <File Include="bin/Library.dll">
+      <publishTime>07/08/2024 14:20:19</publishTime>
+    </File>
+    <File Include="bin/Library.pdb">
+      <publishTime>07/08/2024 14:20:19</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/09/2018 17:10:50</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/08/2018 06:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/08/2018 13:18:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/08/2018 13:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/08/2018 06:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/08/2018 13:18:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/08/2018 13:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/08/2018 06:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/08/2018 06:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/08/2018 06:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/08/2018 06:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/08/2018 06:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/08/2018 06:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/08/2018 13:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>08/08/2018 13:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/08/2018 13:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>11/05/2016 18:55:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>11/05/2016 18:55:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/16/2018 04:29:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>11/05/2016 18:55:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>11/05/2016 18:55:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>11/05/2016 18:56:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>11/05/2016 18:56:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>11/05/2016 18:56:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>11/05/2016 18:56:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/16/2018 04:29:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>11/05/2016 18:57:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>11/05/2016 18:57:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>11/05/2016 18:57:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/05/2016 18:57:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>11/05/2016 18:57:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>11/05/2016 18:57:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>11/05/2016 18:57:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>11/05/2016 18:57:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/08/2018 06:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/08/2018 13:18:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/08/2018 13:09:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/08/2018 06:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/08/2018 13:18:16</publishTime>
+    </File>
+    <File Include="LibraryAdmin/.DS_Store">
+      <publishTime>06/25/2024 17:14:09</publishTime>
+    </File>
+    <File Include="LibraryAdmin/AdminMaster.Master">
+      <publishTime>06/30/2024 19:01:41</publishTime>
+    </File>
+    <File Include="LibraryAdmin/assets/avatars/face-1.jpg">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/assets/avatars/face-2.jpg">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/assets/avatars/face-3.jpg">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/assets/avatars/face-4.jpg">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/assets/avatars/face-5.jpg">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/assets/avatars/face-6.jpg">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/assets/avatars/face-7.jpg">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/assets/avatars/face-8.jpg">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/assets/images/logo.svg">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/assets/images/qrcode.svg">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/assets/products/p1.jpg">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/assets/products/p2.jpg">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/assets/products/p3.jpg">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/assets/products/p4.jpg">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/auth-confirm.html">
+      <publishTime>06/25/2024 17:14:09</publishTime>
+    </File>
+    <File Include="LibraryAdmin/auth-login-half.html">
+      <publishTime>06/25/2024 17:14:09</publishTime>
+    </File>
+    <File Include="LibraryAdmin/auth-login.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/auth-register.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/auth-resetpw.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/calendar.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/chart-apexcharts.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/chart-chartjs.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/chart-inline.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/contacts-grid.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/contacts-list.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/contacts-new.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/css/apexcharts.css">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/css/app-dark.css">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/css/app-light.css">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/css/app-rtl.css">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/css/bootstrap-datepicker.css">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/css/dataTables.bootstrap4.css">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/css/daterangepicker.css">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/css/dropzone.css">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/css/dropzone.min.css">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/css/feather.css">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/css/fullcalendar.css">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/css/jquery.steps.css">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/css/jquery.timepicker.css">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/css/perfect-scrollbar.css">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/css/quill.snow.css">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/css/select2-bootstrap4.css">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/css/select2.css">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/css/simplebar.css">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/css/uppy.min.css">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/dashboard-analytics.html">
+      <publishTime>06/25/2024 17:14:06</publishTime>
+    </File>
+    <File Include="LibraryAdmin/dashboard-saas.html">
+      <publishTime>06/25/2024 17:14:06</publishTime>
+    </File>
+    <File Include="LibraryAdmin/dashboard-sales.html">
+      <publishTime>06/25/2024 17:14:07</publishTime>
+    </File>
+    <File Include="LibraryAdmin/dashboard-system.html">
+      <publishTime>06/25/2024 17:14:09</publishTime>
+    </File>
+    <File Include="LibraryAdmin/data/contacts.json">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/data/eu.topo.json">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/datamaps.html">
+      <publishTime>06/25/2024 17:14:09</publishTime>
+    </File>
+    <File Include="LibraryAdmin/Default.aspx">
+      <publishTime>07/07/2024 18:42:07</publishTime>
+    </File>
+    <File Include="LibraryAdmin/files-grid.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/files-list.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/fonts/feather.eot">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/fonts/feather.svg">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/fonts/feather.ttf">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/fonts/feather.woff">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/form_advanced.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/form_elements.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/form_layouts.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/form_upload.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/form_validation.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/form_wizard.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/index-boxed.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/index-horizontal.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/index-vertical.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/index.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/apexcharts.custom.js">
+      <publishTime>06/25/2024 17:14:09</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/apexcharts.min.js">
+      <publishTime>06/25/2024 17:14:09</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/apps.js">
+      <publishTime>06/25/2024 17:14:09</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/bootstrap-datepicker.min.js">
+      <publishTime>06/25/2024 17:14:09</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/bootstrap.min.js">
+      <publishTime>06/25/2024 17:14:09</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/Chart.min.js">
+      <publishTime>06/25/2024 17:14:09</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/config.js">
+      <publishTime>06/25/2024 17:14:09</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/d3.min.js">
+      <publishTime>06/25/2024 17:14:09</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/datamaps-zoomto.js">
+      <publishTime>06/25/2024 17:14:09</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/datamaps.all.min.js">
+      <publishTime>06/25/2024 17:14:09</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/datamaps.custom.js">
+      <publishTime>06/25/2024 17:14:09</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/dataTables.bootstrap4.min.js">
+      <publishTime>06/25/2024 17:14:09</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/daterangepicker.js">
+      <publishTime>06/25/2024 17:14:09</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/dropzone.min.js">
+      <publishTime>06/25/2024 17:14:09</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/fullcalendar.custom.js">
+      <publishTime>06/25/2024 17:14:09</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/fullcalendar.js">
+      <publishTime>06/25/2024 17:14:09</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/gauge.min.js">
+      <publishTime>06/25/2024 17:14:09</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/jquery.dataTables.min.js">
+      <publishTime>06/25/2024 17:14:09</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/jquery.mask.min.js">
+      <publishTime>06/25/2024 17:14:10</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/jquery.min.js">
+      <publishTime>06/25/2024 17:14:10</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/jquery.sparkline.min.js">
+      <publishTime>06/25/2024 17:14:10</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/jquery.steps.min.js">
+      <publishTime>06/25/2024 17:14:10</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/jquery.stickOnScroll.js">
+      <publishTime>06/25/2024 17:14:10</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/jquery.timepicker.js">
+      <publishTime>06/25/2024 17:14:10</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/jquery.validate.min.js">
+      <publishTime>06/25/2024 17:14:10</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/moment.min.js">
+      <publishTime>06/25/2024 17:14:10</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/perfect-scrollbar.min.js">
+      <publishTime>06/25/2024 17:14:10</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/popper.min.js">
+      <publishTime>06/25/2024 17:14:10</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/quill.min.js">
+      <publishTime>06/25/2024 17:14:10</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/select2.min.js">
+      <publishTime>06/25/2024 17:14:10</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/simplebar.min.js">
+      <publishTime>06/25/2024 17:14:10</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/tinycolor-min.js">
+      <publishTime>06/25/2024 17:14:10</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/topojson.min.js">
+      <publishTime>06/25/2024 17:14:10</publishTime>
+    </File>
+    <File Include="LibraryAdmin/js/uppy.min.js">
+      <publishTime>06/25/2024 17:14:10</publishTime>
+    </File>
+    <File Include="LibraryAdmin/NewAdminMaster.Master">
+      <publishTime>07/07/2024 21:20:52</publishTime>
+    </File>
+    <File Include="LibraryAdmin/page-404.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/page-500.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/page-blank.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/page-invoice.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/page-orders.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/page-timeline.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/profile-notification.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/profile-security.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/profile-settings.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/profile.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/support-center.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/support-faqs.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/support-ticket-detail.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/support-tickets.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/table_advanced.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/table_basic.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/table_datatables.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/ui-buttons.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/ui-color.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/ui-icons.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/ui-modals.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/ui-notification.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/ui-progress.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/ui-tabs-accordion.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/ui-typograpy.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LibraryAdmin/UserList.aspx">
+      <publishTime>07/07/2024 22:34:52</publishTime>
+    </File>
+    <File Include="LibraryAdmin/widgets.html">
+      <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/07/2024 18:52:14</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

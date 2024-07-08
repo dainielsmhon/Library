@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\danie\\source\\repos\\Library\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|c:\\users\\danie\\source\\repos\\library\\library\\app_code\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|solutionrelative:library\\app_code\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|c:\\users\\danie\\source\\repos\\library\\library\\libraryadmin\\userlist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|solutionrelative:library\\libraryadmin\\userlist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|C:\\Users\\danie\\source\\repos\\Library\\library\\libraryadmin\\userlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|solutionrelative:library\\libraryadmin\\userlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|C:\\Users\\danie\\source\\repos\\Library\\library\\libraryadmin\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|solutionrelative:library\\libraryadmin\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|C:\\Users\\danie\\source\\repos\\Library\\library\\libraryadmin\\table_datatables.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|solutionrelative:library\\libraryadmin\\table_datatables.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|C:\\Users\\danie\\source\\repos\\Library\\library\\libraryadmin\\newadminmaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|solutionrelative:library\\libraryadmin\\newadminmaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DbContext.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\Library\\Library\\App_Code\\DbContext.cs",
-              "RelativeDocumentMoniker": "Library\\App_Code\\DbContext.cs",
-              "ToolTip": "C:\\Users\\danie\\source\\repos\\Library\\Library\\App_Code\\DbContext.cs",
-              "RelativeToolTip": "Library\\App_Code\\DbContext.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAAAEMAAAAPAAAA",
+              "Title": "UserList.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\Library\\Library\\LibraryAdmin\\UserList.aspx.cs",
+              "RelativeDocumentMoniker": "Library\\LibraryAdmin\\UserList.aspx.cs",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\Library\\Library\\LibraryAdmin\\UserList.aspx.cs",
+              "RelativeToolTip": "Library\\LibraryAdmin\\UserList.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T21:04:16.711Z",
+              "WhenOpened": "2024-07-08T15:08:10.171Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\Library\\Library\\LibraryAdmin\\Default.aspx",
+              "RelativeDocumentMoniker": "Library\\LibraryAdmin\\Default.aspx",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\Library\\Library\\LibraryAdmin\\Default.aspx",
+              "RelativeToolTip": "Library\\LibraryAdmin\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-07T18:07:29.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NewAdminMaster.Master",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\Library\\Library\\LibraryAdmin\\NewAdminMaster.Master",
+              "RelativeDocumentMoniker": "Library\\LibraryAdmin\\NewAdminMaster.Master",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\Library\\Library\\LibraryAdmin\\NewAdminMaster.Master",
+              "RelativeToolTip": "Library\\LibraryAdmin\\NewAdminMaster.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-07T16:30:00.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserList.aspx",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\Library\\Library\\LibraryAdmin\\UserList.aspx",
+              "RelativeDocumentMoniker": "Library\\LibraryAdmin\\UserList.aspx",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\Library\\Library\\LibraryAdmin\\UserList.aspx",
+              "RelativeToolTip": "Library\\LibraryAdmin\\UserList.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-07T16:27:31.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "table_datatables.html",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\Library\\Library\\LibraryAdmin\\table_datatables.html",
+              "RelativeDocumentMoniker": "Library\\LibraryAdmin\\table_datatables.html",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\Library\\Library\\LibraryAdmin\\table_datatables.html",
+              "RelativeToolTip": "Library\\LibraryAdmin\\table_datatables.html",
+              "ViewState": "AQIAABkIAAAAAAAAAAAwwDsIAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-07-07T16:26:11.437Z"
             }
           ]
         }

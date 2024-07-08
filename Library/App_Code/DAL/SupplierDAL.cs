@@ -4,12 +4,14 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Net;
 using System.Web;
 
 namespace DAL
 {
     public class SupplierDAL
     {
+
 
         public static Supplier GetById(int id)
         {
@@ -19,12 +21,18 @@ namespace DAL
             DataTable Dt = Db.Execute(Sql);
 
             if (Dt.Rows.Count > 0)
+              
             {
                 Tmp = new Supplier()
                 {
-                    SupplierId = int.Parse(Dt.Rows[0]["SupplierId"] + ""),//תווים מהשורה הראשונה
+                    SupplierId = int.Parse(Dt.Rows[0]["SupplierIdId"] + ""),
                     SupplierName = Dt.Rows[0]["SupplierName"] + "",
-                    Added = DateTime.Parse(Dt.Rows[0]["Added"] + "")
+                    SAddress = Dt.Rows[0]["SAddress"] + "",
+                    SPhone = Dt.Rows[0]["SPhone"] + "",
+                    SWeb = Dt.Rows[0]["SWeb"] + "",
+                    SEmail = Dt.Rows[0]["SEmail"] + "",
+                    Added = DateTime.Parse(Dt.Rows[0]["Added"] + ""),
+                    Contact = Dt.Rows[0]["Contact"] + ""
 
                 };
             }
@@ -42,9 +50,14 @@ namespace DAL
             {
                 Supplier Tmp = new Supplier()
                 {
-                    SupplierId = int.Parse(Dt.Rows[i]["SupplierId"] + ""),
-                    SupplierName = Dt.Rows[i]["SupplierName"] + "",
-                    Added = DateTime.Parse(Dt.Rows[i]["Added"] + "")
+                    SupplierId = int.Parse(Dt.Rows[0]["SupplierIdId"] + ""),
+                    SupplierName = Dt.Rows[0]["SupplierName"] + "",
+                    SAddress = Dt.Rows[0]["SAddress"] + "",
+                    SPhone = Dt.Rows[0]["SPhone"] + "",
+                    SWeb = Dt.Rows[0]["SWeb"] + "",
+                    SEmail = Dt.Rows[0]["SEmail"] + "",
+                    Added = DateTime.Parse(Dt.Rows[0]["Added"] + ""),
+                    Contact = Dt.Rows[0]["Contact"] + ""
 
                 };//מוסיף לרשימה 
                 LstTmp.Add(Tmp);
@@ -74,11 +87,23 @@ namespace DAL
             string Sql = "";
             if (Tmp.SupplierId == -1)
             {
-                Sql = $"INSERT INTO t_Supplier (CitiName) Values(N'{Tmp.SupplierName}')";
+
+                Sql = $"INSERT INTO t_Agent (SupplierId,SupplierName,SAddress,SPhone,SWeb,SEmail,Added,Contact) Values ";
+                Sql += $" (N'{Tmp.SupplierId}',N'{Tmp.SupplierName}',N'{Tmp.SAddress}',N'{Tmp.SPhone}',N'{Tmp.SWeb}',N'{Tmp.SEmail}',N'{Tmp.Contact},'{Tmp.Added.ToString("yyyy-MM-dd")}')";
             }
             else
+             
             {
-                Sql = $"UPDATE T_Supplier set SupplierName=N'{Tmp.SupplierName}' WHERE SupplierId={Tmp.SupplierId}";
+                Sql = $"UPDATE T_Agent set ";
+                Sql += $"SupplierId=N'{Tmp.SupplierId}', ";
+                Sql += $"SupplierName=N'{Tmp.SupplierName}', ";
+                Sql += $"SAddress=N'{Tmp.SAddress}', ";
+                Sql += $"SPhone=N'{Tmp.SPhone}', ";
+                Sql += $"SWeb=N'{Tmp.SWeb}', ";
+                Sql += $"SEmail=N'{Tmp.SEmail}', ";
+                Sql += $"Contact={Tmp.Contact}, ";
+                Sql += $"Added='{Tmp.Added.ToString("yyyy-MM-dd")}' ";
+                Sql += $" WHERE SupplierId={Tmp.SupplierId}";
             }
 
             RecCount = Db.ExecuteNonQuery(Sql);
