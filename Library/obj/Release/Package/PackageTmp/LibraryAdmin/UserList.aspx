@@ -11,33 +11,43 @@
                         <thead>
                           <tr>
                             <th>#</th>
-                            <th>שם משתמש </th>
                             <th>תז משתמש </th>
-                            <th>פלאפון</th>
-                            <th>כתובת</th>
+                            <th>שם</th>
+                            <th>שם משתמש</th>
+                            <th>סיסמה</th>
                             <th>מייל</th>
+                            <th>פלאפון</th>
+                            <th>כתובת </th>
+                            <th>תאריך הצטרפות</th>
                             <th>פעולה</th>
                           </tr>
                         </thead>
                         <tbody>
-                          <tr>
-                            <td>368</td>
-                            <td>דניאל שמחון</td>
-                            <td>313515660</td>
-                            <td>(972)502048152</td>
-                            <td>ינאי 6</td>
-                            <td>danielsimhon931@gmail.com</td>
+                           <asp:Repeater ID="RpUser" runat="server">
+                               <ItemTemplate>
+                               <tr>
+                            <th><%#Eval("UserId")%></th>
+                            <th><%#Eval("Name")%></th>
+                            <th><%#Eval("UserName")%></th>
+                            <th><%#Eval("UserPass")%></th>
+                            <th><%#Eval("Email")%></th>
+                            <th><%#Eval("Phone")%></th>
+                            <th><%#Eval("Adress")%></th>
+                            <th><%#Eval("JoinDate")%></th>
                             
                             <td><button class="btn btn-sm dropdown-toggle more-horizontal" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="text-muted sr-only">פרטים נוספים</span>
                               </button>
                               <div class="dropdown-menu dropdown-menu-right">
-                                <a class="dropdown-item" href="#">עריכה</a>   
+                                <a class="dropdown-item" href="UserAdd.aspx?UserId=<%#Eval("UserId")%>">עריכה</a>   
                                 <a class="dropdown-item" href="#">הסרה</a>
                                 <a class="dropdown-item" href="#">כרטיס משתמש</a>
                               </div>
                             </td>
                           </tr>
+
+                               </ItemTemplate>
+                           </asp:Repeater>
                           <tr>
                             <td>
                               <div class="custom-control custom-checkbox">

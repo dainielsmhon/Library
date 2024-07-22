@@ -18,7 +18,7 @@ namespace DAL
         {
             User Tmp = null;
             DbContext Db = new DbContext();
-            string Sql = $" SELECT * FROM T_User WHERE UserId={id}";
+            string Sql = $" SELECT * FROM T_Users WHERE UserId={id}";
             DataTable Dt = Db.Execute(Sql);
             if (Dt.Rows.Count > 0)
 
@@ -33,7 +33,6 @@ namespace DAL
                     Email = Dt.Rows[0]["Email"] + "",
                     Phone = Dt.Rows[0]["Phone"] + "",
                     Adress = Dt.Rows[0]["Adress"] + "",
-                    Added = DateTime.Parse(Dt.Rows[0]["Added"] + ""),
                     JoinDate = DateTime.Parse(Dt.Rows[0]["JoinDate"] + "")
                     
 
@@ -47,7 +46,7 @@ namespace DAL
         {
             List<User> LstTmp = new List<User>();
             DbContext Db = new DbContext();
-            string Sql = $" SELECT * FROM T_User ";
+            string Sql = $" SELECT * FROM T_Users ";
             DataTable Dt = Db.Execute(Sql);
             for (int i = 0; i < Dt.Rows.Count; i++)//עובר על כל השורות שחזרו
             {
@@ -60,7 +59,6 @@ namespace DAL
                     Email = Dt.Rows[0]["Email"] + "",
                     Phone = Dt.Rows[0]["Phone"] + "",
                     Adress = Dt.Rows[0]["Adress"] + "",
-                    Added = DateTime.Parse(Dt.Rows[0]["Added"] + ""),
                     JoinDate = DateTime.Parse(Dt.Rows[0]["JoinDate"] + "")
 
                 };//מוסיף לרשימה 
@@ -77,7 +75,7 @@ namespace DAL
         {
             User Tmp = null;
             DbContext Db = new DbContext();
-            string Sql = $" DELETE FROM T_User WHERE UserId={id}";
+            string Sql = $" DELETE FROM T_Users WHERE UserId={id}";
             int RecCount = 0;
             RecCount = Db.ExecuteNonQuery(Sql);
 
@@ -92,13 +90,13 @@ namespace DAL
             if (Tmp.UserId == -1)
             {
 
-                Sql = $"INSERT INTO t_Agent (UserId,Name,UserName,UserPass,Email,Phone,Adress,Added,JoinDate) Values ";
-                Sql += $" (N'{Tmp.UserId}',N'{Tmp.Name}',N'{Tmp.UserName}',N'{Tmp.UserPass}',N'{Tmp.Email}',N'{Tmp.Phone}',N'{Tmp.Adress}',{Tmp.Added.ToString("yyyy-MM-dd")}''{Tmp.JoinDate.ToString("yyyy-MM-dd")}')";
+                Sql = $"INSERT INTO T_Users (UserId,Name,UserName,UserPass,Email,Phone,Adress,JoinDate) Values ";
+                Sql += $" (N'{Tmp.UserId}',N'{Tmp.Name}',N'{Tmp.UserName}',N'{Tmp.UserPass}',N'{Tmp.Email}',N'{Tmp.Phone}',N'{Tmp.Adress}','{Tmp.JoinDate.ToString("yyyy-MM-dd")}')";
             }
             else
                 
             {
-                Sql = $"UPDATE T_Agent set ";
+                Sql = $"UPDATE T_Users set ";
                 Sql += $"UserId=N'{Tmp.UserId}', ";
                 Sql += $"UserName=N'{Tmp.UserName}', ";
                 Sql += $"Name=N'{Tmp.Name}', ";
@@ -106,7 +104,6 @@ namespace DAL
                 Sql += $"Email=N'{Tmp.Email}', ";
                 Sql += $"Phone=N'{Tmp.Phone}', ";
                 Sql += $"Adress=N'{Tmp.Adress}', ";
-                Sql += $"Added='{Tmp.Added.ToString("yyyy-MM-dd")}' ";
                 Sql += $"JoinDate='{Tmp.JoinDate.ToString("yyyy-MM-dd")}' ";
                 Sql += $" WHERE UserId={Tmp.UserId}";
             }
@@ -115,7 +112,7 @@ namespace DAL
 
             if (Tmp.UserId == -1)
             {
-                Tmp.UserId = Db.GetMaxId("T_User", "UserId");
+                Tmp.UserId = Db.GetMaxId("T_Users", "UserId");
             }
 
 

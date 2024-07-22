@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using BLL;
+using DAL;
 
 namespace Library.LibraryAdmin
 {
@@ -20,7 +22,9 @@ namespace Library.LibraryAdmin
         }
         public void FillData()
         {
-
+            //לשלוף את רשימת המשתמשים ולחבר אותם לרפיטר
+            RpUser.DataSource = BLL.User.Get();
+            RpUser.DataBind();
         }
     }
 }
