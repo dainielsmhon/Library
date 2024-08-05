@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\danie\\source\\repos\\Library\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|c:\\users\\danie\\source\\repos\\library\\library\\libraryadmin\\useradd.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|solutionrelative:library\\libraryadmin\\useradd.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|c:\\users\\danie\\source\\repos\\library\\library\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|solutionrelative:library\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|C:\\Users\\danie\\source\\repos\\Library\\library\\app_code\\dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|solutionrelative:library\\app_code\\dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|C:\\Users\\danie\\source\\repos\\Library\\library\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|solutionrelative:library\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|C:\\Users\\danie\\source\\repos\\Library\\library\\libraryadmin\\auth-login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|solutionrelative:library\\libraryadmin\\auth-login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|C:\\Users\\danie\\source\\repos\\Library\\library\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|solutionrelative:library\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|C:\\Users\\danie\\source\\repos\\Library\\library\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|solutionrelative:library\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|C:\\Users\\danie\\source\\repos\\Library\\library\\libraryadmin\\userlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|solutionrelative:library\\libraryadmin\\userlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|C:\\Users\\danie\\source\\repos\\Library\\library\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|solutionrelative:library\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +46,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "UserList.aspx",
               "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\Library\\Library\\LibraryAdmin\\UserList.aspx",
               "RelativeDocumentMoniker": "Library\\LibraryAdmin\\UserList.aspx",
@@ -38,32 +54,80 @@
               "RelativeToolTip": "Library\\LibraryAdmin\\UserList.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-07-17T19:31:12.477Z"
+              "WhenOpened": "2024-07-29T16:45:17.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserAdd.aspx",
-              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\Library\\Library\\LibraryAdmin\\UserAdd.aspx",
-              "RelativeDocumentMoniker": "Library\\LibraryAdmin\\UserAdd.aspx",
-              "ToolTip": "C:\\Users\\danie\\source\\repos\\Library\\Library\\LibraryAdmin\\UserAdd.aspx",
-              "RelativeToolTip": "Library\\LibraryAdmin\\UserAdd.aspx",
+              "DocumentIndex": 4,
+              "Title": "Register.aspx",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\Library\\Library\\Register.aspx",
+              "RelativeDocumentMoniker": "Library\\Register.aspx",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\Library\\Library\\Register.aspx",
+              "RelativeToolTip": "Library\\Register.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-07-17T19:30:48.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T19:14:16.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\Library\\Library\\Register.aspx.cs",
+              "RelativeDocumentMoniker": "Library\\Register.aspx.cs",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\Library\\Library\\Register.aspx.cs",
+              "RelativeToolTip": "Library\\Register.aspx.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwBwAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T19:04:31.698Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserDAL.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\Library\\Library\\App_Code\\DAL\\UserDAL.cs",
-              "RelativeDocumentMoniker": "Library\\App_Code\\DAL\\UserDAL.cs",
-              "ToolTip": "C:\\Users\\danie\\source\\repos\\Library\\Library\\App_Code\\DAL\\UserDAL.cs",
-              "RelativeToolTip": "Library\\App_Code\\DAL\\UserDAL.cs",
-              "ViewState": "AQIAAGIAAAAAAAAAAAAIwCMAAAAAAAAA",
+              "Title": "LogIn.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\Library\\Library\\LogIn.aspx.cs",
+              "RelativeDocumentMoniker": "Library\\LogIn.aspx.cs",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\Library\\Library\\LogIn.aspx.cs",
+              "RelativeToolTip": "Library\\LogIn.aspx.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAEwBsAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T19:07:35.062Z"
+              "WhenOpened": "2024-07-24T18:57:16.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LogIn.aspx",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\Library\\Library\\LogIn.aspx",
+              "RelativeDocumentMoniker": "Library\\LogIn.aspx",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\Library\\Library\\LogIn.aspx",
+              "RelativeToolTip": "Library\\LogIn.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-24T18:57:14.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "auth-login.html",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\Library\\Library\\LibraryAdmin\\auth-login.html",
+              "RelativeDocumentMoniker": "Library\\LibraryAdmin\\auth-login.html",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\Library\\Library\\LibraryAdmin\\auth-login.html",
+              "RelativeToolTip": "Library\\LibraryAdmin\\auth-login.html",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-07-29T18:44:31.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\Library\\Library\\Global.asax.cs",
+              "RelativeDocumentMoniker": "Library\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\Library\\Library\\Global.asax.cs",
+              "RelativeToolTip": "Library\\Global.asax.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T18:45:22.543Z"
             }
           ]
         }

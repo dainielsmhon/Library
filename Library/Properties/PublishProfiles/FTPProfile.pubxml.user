@@ -6,7 +6,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcgn4cHWWGE2HBX/gQvOd4gAAAAACAAAAAAAQZgAAAAEAACAAAABHX1Ej8Xeufk0Xpv+Fzt88ppF/lUAp5m6INebxcw/qZgAAAAAOgAAAAAIAACAAAADLZtoucwysZaa7AGU25K+3AAa5T8JT6oYHTumuSQCTpSAAAACsth8xFXeM/IbH8iDbCpgVVVCkzsd8aEx5opu6z1gYo0AAAACb+lF7Oma3oGlQya9r51/GZSmr3Hb1hP3xTd0tbHZJ9FcgpvzUtTngPWW5P2LiP6fmCPeqOhWQHQ/0yJJfVpJ9</EncryptedPassword>
-    <History>False|2024-07-22T15:38:06.9783441Z||;True|2024-07-16T00:22:19.5998781+03:00||;False|2024-07-15T23:04:57.1778192+03:00||;True|2024-07-14T21:43:56.2034969+03:00||;True|2024-07-10T21:58:52.2859007+03:00||;True|2024-07-08T14:28:15.8969586+03:00||;True|2024-07-04T17:40:28.6992277+03:00||;True|2024-07-03T22:09:04.3440597+03:00||;False|2024-07-03T21:48:28.2625017+03:00||;False|2024-07-01T21:13:20.4856457+03:00||;</History>
+    <History>True|2024-07-30T16:56:21.1306047Z||;False|2024-07-28T18:54:04.1578657+03:00||;False|2024-07-22T18:38:06.9783441+03:00||;True|2024-07-16T00:22:19.5998781+03:00||;False|2024-07-15T23:04:57.1778192+03:00||;True|2024-07-14T21:43:56.2034969+03:00||;True|2024-07-10T21:58:52.2859007+03:00||;True|2024-07-08T14:28:15.8969586+03:00||;True|2024-07-04T17:40:28.6992277+03:00||;True|2024-07-03T22:09:04.3440597+03:00||;False|2024-07-03T21:48:28.2625017+03:00||;False|2024-07-01T21:13:20.4856457+03:00||;</History>
     <LastFailureDetails />
     <_PublishTargetUrl>ftp://198.37.116.29/www.srtg45.somee.com</_PublishTargetUrl>
   </PropertyGroup>
@@ -17,11 +17,53 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <File Include="App_Data/Library_log.ldf">
       <publishTime>07/17/2024 22:06:46</publishTime>
     </File>
+    <File Include="assets/avatars/face-1.jpg">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="assets/avatars/face-2.jpg">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="assets/avatars/face-3.jpg">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="assets/avatars/face-4.jpg">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="assets/avatars/face-5.jpg">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="assets/avatars/face-6.jpg">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="assets/avatars/face-7.jpg">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="assets/avatars/face-8.jpg">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="assets/images/logo.svg">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="assets/images/qrcode.svg">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="assets/products/p1.jpg">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="assets/products/p2.jpg">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="assets/products/p3.jpg">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="assets/products/p4.jpg">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
     <File Include="bin/Library.dll">
-      <publishTime>07/21/2024 21:11:26</publishTime>
+      <publishTime>07/30/2024 19:42:01</publishTime>
     </File>
     <File Include="bin/Library.pdb">
-      <publishTime>07/21/2024 21:11:26</publishTime>
+      <publishTime>07/30/2024 19:42:01</publishTime>
     </File>
     <File Include="bin/Microsoft.Bcl.AsyncInterfaces.dll">
       <publishTime>10/31/2023 17:00:18</publishTime>
@@ -224,6 +266,186 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <File Include="Cities.aspx">
       <publishTime>07/10/2024 20:18:13</publishTime>
     </File>
+    <File Include="css/apexcharts.css">
+      <publishTime>07/29/2024 21:50:03</publishTime>
+    </File>
+    <File Include="css/app-dark.css">
+      <publishTime>07/29/2024 21:50:03</publishTime>
+    </File>
+    <File Include="css/app-light.css">
+      <publishTime>07/29/2024 21:50:03</publishTime>
+    </File>
+    <File Include="css/app-rtl.css">
+      <publishTime>07/29/2024 21:50:03</publishTime>
+    </File>
+    <File Include="css/bootstrap-datepicker.css">
+      <publishTime>07/29/2024 21:50:03</publishTime>
+    </File>
+    <File Include="css/dataTables.bootstrap4.css">
+      <publishTime>07/29/2024 21:50:03</publishTime>
+    </File>
+    <File Include="css/daterangepicker.css">
+      <publishTime>07/29/2024 21:50:03</publishTime>
+    </File>
+    <File Include="css/dropzone.css">
+      <publishTime>07/29/2024 21:50:03</publishTime>
+    </File>
+    <File Include="css/dropzone.min.css">
+      <publishTime>07/29/2024 21:50:03</publishTime>
+    </File>
+    <File Include="css/feather.css">
+      <publishTime>07/29/2024 21:50:03</publishTime>
+    </File>
+    <File Include="css/fullcalendar.css">
+      <publishTime>07/29/2024 21:50:03</publishTime>
+    </File>
+    <File Include="css/jquery.steps.css">
+      <publishTime>07/29/2024 21:50:03</publishTime>
+    </File>
+    <File Include="css/jquery.timepicker.css">
+      <publishTime>07/29/2024 21:50:03</publishTime>
+    </File>
+    <File Include="css/perfect-scrollbar.css">
+      <publishTime>07/29/2024 21:50:03</publishTime>
+    </File>
+    <File Include="css/quill.snow.css">
+      <publishTime>07/29/2024 21:50:03</publishTime>
+    </File>
+    <File Include="css/select2-bootstrap4.css">
+      <publishTime>07/29/2024 21:50:03</publishTime>
+    </File>
+    <File Include="css/select2.css">
+      <publishTime>07/29/2024 21:50:03</publishTime>
+    </File>
+    <File Include="css/simplebar.css">
+      <publishTime>07/29/2024 21:50:03</publishTime>
+    </File>
+    <File Include="css/uppy.min.css">
+      <publishTime>07/29/2024 21:50:03</publishTime>
+    </File>
+    <File Include="data/contacts.json">
+      <publishTime>07/29/2024 21:50:03</publishTime>
+    </File>
+    <File Include="data/eu.topo.json">
+      <publishTime>07/29/2024 21:50:03</publishTime>
+    </File>
+    <File Include="fonts/feather.eot">
+      <publishTime>07/29/2024 21:50:03</publishTime>
+    </File>
+    <File Include="fonts/feather.svg">
+      <publishTime>07/29/2024 21:50:03</publishTime>
+    </File>
+    <File Include="fonts/feather.ttf">
+      <publishTime>07/29/2024 21:50:03</publishTime>
+    </File>
+    <File Include="fonts/feather.woff">
+      <publishTime>07/29/2024 21:50:03</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>07/24/2024 21:45:22</publishTime>
+    </File>
+    <File Include="js/apexcharts.custom.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/apexcharts.min.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/apps.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/bootstrap-datepicker.min.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/Chart.min.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/config.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/d3.min.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/datamaps-zoomto.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/datamaps.all.min.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/datamaps.custom.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/dataTables.bootstrap4.min.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/daterangepicker.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/dropzone.min.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/fullcalendar.custom.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/fullcalendar.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/gauge.min.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/jquery.dataTables.min.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/jquery.mask.min.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/jquery.min.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/jquery.sparkline.min.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/jquery.steps.min.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/jquery.stickOnScroll.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/jquery.timepicker.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/jquery.validate.min.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/moment.min.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/perfect-scrollbar.min.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/popper.min.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/quill.min.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/select2.min.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/simplebar.min.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/tinycolor-min.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/topojson.min.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
+    <File Include="js/uppy.min.js">
+      <publishTime>07/29/2024 21:50:04</publishTime>
+    </File>
     <File Include="LibraryAdmin/.DS_Store">
       <publishTime>06/25/2024 17:14:09</publishTime>
     </File>
@@ -399,13 +621,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>06/25/2024 17:14:12</publishTime>
     </File>
     <File Include="LibraryAdmin/fonts/feather.svg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:12</publishTime>
     </File>
     <File Include="LibraryAdmin/fonts/feather.ttf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:12</publishTime>
     </File>
     <File Include="LibraryAdmin/fonts/feather.woff">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:12</publishTime>
     </File>
     <File Include="LibraryAdmin/form_advanced.html">
       <publishTime>06/25/2024 17:14:12</publishTime>
@@ -438,106 +660,106 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>06/25/2024 17:14:12</publishTime>
     </File>
     <File Include="LibraryAdmin/js/apexcharts.custom.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:09</publishTime>
     </File>
     <File Include="LibraryAdmin/js/apexcharts.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:09</publishTime>
     </File>
     <File Include="LibraryAdmin/js/apps.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:09</publishTime>
     </File>
     <File Include="LibraryAdmin/js/bootstrap-datepicker.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:09</publishTime>
     </File>
     <File Include="LibraryAdmin/js/bootstrap.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:09</publishTime>
     </File>
     <File Include="LibraryAdmin/js/Chart.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:09</publishTime>
     </File>
     <File Include="LibraryAdmin/js/config.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:09</publishTime>
     </File>
     <File Include="LibraryAdmin/js/d3.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:09</publishTime>
     </File>
     <File Include="LibraryAdmin/js/datamaps-zoomto.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:09</publishTime>
     </File>
     <File Include="LibraryAdmin/js/datamaps.all.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:09</publishTime>
     </File>
     <File Include="LibraryAdmin/js/datamaps.custom.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:09</publishTime>
     </File>
     <File Include="LibraryAdmin/js/dataTables.bootstrap4.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:09</publishTime>
     </File>
     <File Include="LibraryAdmin/js/daterangepicker.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:09</publishTime>
     </File>
     <File Include="LibraryAdmin/js/dropzone.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:09</publishTime>
     </File>
     <File Include="LibraryAdmin/js/fullcalendar.custom.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:09</publishTime>
     </File>
     <File Include="LibraryAdmin/js/fullcalendar.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:09</publishTime>
     </File>
     <File Include="LibraryAdmin/js/gauge.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:09</publishTime>
     </File>
     <File Include="LibraryAdmin/js/jquery.dataTables.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:09</publishTime>
     </File>
     <File Include="LibraryAdmin/js/jquery.mask.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:10</publishTime>
     </File>
     <File Include="LibraryAdmin/js/jquery.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:10</publishTime>
     </File>
     <File Include="LibraryAdmin/js/jquery.sparkline.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:10</publishTime>
     </File>
     <File Include="LibraryAdmin/js/jquery.steps.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:10</publishTime>
     </File>
     <File Include="LibraryAdmin/js/jquery.stickOnScroll.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:10</publishTime>
     </File>
     <File Include="LibraryAdmin/js/jquery.timepicker.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:10</publishTime>
     </File>
     <File Include="LibraryAdmin/js/jquery.validate.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:10</publishTime>
     </File>
     <File Include="LibraryAdmin/js/moment.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:10</publishTime>
     </File>
     <File Include="LibraryAdmin/js/perfect-scrollbar.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:10</publishTime>
     </File>
     <File Include="LibraryAdmin/js/popper.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:10</publishTime>
     </File>
     <File Include="LibraryAdmin/js/quill.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:10</publishTime>
     </File>
     <File Include="LibraryAdmin/js/select2.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:10</publishTime>
     </File>
     <File Include="LibraryAdmin/js/simplebar.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:10</publishTime>
     </File>
     <File Include="LibraryAdmin/js/tinycolor-min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:10</publishTime>
     </File>
     <File Include="LibraryAdmin/js/topojson.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:10</publishTime>
     </File>
     <File Include="LibraryAdmin/js/uppy.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>06/25/2024 17:14:10</publishTime>
     </File>
     <File Include="LibraryAdmin/NewAdminMaster.Master">
       <publishTime>07/07/2024 21:20:52</publishTime>
@@ -625,6 +847,12 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     </File>
     <File Include="LibraryAdmin/widgets.html">
       <publishTime>06/25/2024 17:14:12</publishTime>
+    </File>
+    <File Include="LogIn.aspx">
+      <publishTime>07/30/2024 19:41:59</publishTime>
+    </File>
+    <File Include="Register.aspx">
+      <publishTime>07/26/2024 17:19:35</publishTime>
     </File>
     <File Include="Web.config">
       <publishTime>07/21/2024 21:11:31</publishTime>
