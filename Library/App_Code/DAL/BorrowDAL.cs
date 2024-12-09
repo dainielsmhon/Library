@@ -92,12 +92,12 @@ namespace DAL
                 if (Tmp.BorrowId == -1)
                 {
 
-                    Sql = $"INSERT INTO t_Agent (BorrowId,BookId,BorrowName,UserId,BorrowDate,ReturnDatePlan,ActualReturnDate,Notse,Status,Added,TakenDate,ReturnDate) Values ";
+                    Sql = $"INSERT INTO t_Borrow (BorrowId,BookId,BorrowName,UserId,BorrowDate,ReturnDatePlan,ActualReturnDate,Notse,Status,Added,TakenDate,ReturnDate) Values ";
                     Sql += $" (N'{Tmp.BorrowId}',N'{Tmp.BookId}',N'{Tmp.UserId}',N'{Tmp.BorrowName}',N'{Tmp.Notse}',N'{Tmp.Status},{Tmp.Added.ToString("yyyy-MM-dd")}''{Tmp.BorrowDate.ToString("yyyy-MM-dd")}''{Tmp.ReturnDatePlan.ToString("yyyy-MM-dd")}''{Tmp.ActualReturnDate.ToString("yyyy-MM-dd")}''{Tmp.TakenDate.ToString("yyyy-MM-dd")}''{Tmp.ReturnDate.ToString("yyyy-MM-dd")}')";
                 }
                 else 
                 {
-                    Sql = $"UPDATE T_Agent set ";
+                    Sql = $"UPDATE T_Borrow set ";
                     Sql += $"BorrowId=N'{Tmp.BorrowId}', ";
                     Sql += $"BookId=N'{Tmp.BookId}', ";
                     Sql += $"BorrowName=N'{Tmp.BorrowName}', ";

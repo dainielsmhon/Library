@@ -27,6 +27,8 @@ namespace BLL
         {
             return UserDAL.Save(this);
         }
+       // public int Save(string ContextNmae)//הוספה/עדכון
+       // }
         public static User GetById(int id)//שליפה לפי ID
         {
             return UserDAL.GetById(id);

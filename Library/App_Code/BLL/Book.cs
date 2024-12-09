@@ -27,6 +27,7 @@ namespace BLL
         {
             return BookDAL.Save(this);
         }
+
         public static Book GetById(int id)//שליפה לפי ID
         {
             return BookDAL.GetById(id);

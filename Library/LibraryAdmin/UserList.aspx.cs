@@ -26,5 +26,14 @@ namespace Library.LibraryAdmin
             RpUser.DataSource = BLL.User.Get();
             RpUser.DataBind();
         }
+
+        protected void BtnRemove_Click(object sender, EventArgs e)
+        {
+            string Cid = ((Button)sender).CommandArgument;
+
+            int UserId = int.Parse(Cid);
+            BLL.User.Delete(UserId);
+            FillData();
+        }
     }
 }

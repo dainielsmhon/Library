@@ -88,13 +88,13 @@ namespace DAL
             if (Tmp.SupplierId == -1)
             {
 
-                Sql = $"INSERT INTO t_Agent (SupplierId,SupplierName,SAddress,SPhone,SWeb,SEmail,Added,Contact) Values ";
+                Sql = $"INSERT INTO t_Suppliers (SupplierId,SupplierName,SAddress,SPhone,SWeb,SEmail,Added,Contact) Values ";
                 Sql += $" (N'{Tmp.SupplierId}',N'{Tmp.SupplierName}',N'{Tmp.SAddress}',N'{Tmp.SPhone}',N'{Tmp.SWeb}',N'{Tmp.SEmail}',N'{Tmp.Contact},'{Tmp.Added.ToString("yyyy-MM-dd")}')";
             }
             else
              
             {
-                Sql = $"UPDATE T_Agent set ";
+                Sql = $"UPDATE T_Suppliers set ";
                 Sql += $"SupplierId=N'{Tmp.SupplierId}', ";
                 Sql += $"SupplierName=N'{Tmp.SupplierName}', ";
                 Sql += $"SAddress=N'{Tmp.SAddress}', ";
