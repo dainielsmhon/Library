@@ -25,7 +25,12 @@ namespace Library.LibraryAdmin
         public void FillData()
         {
             User Tmp = null;
-            string UserId = Request["UserId"] + "";
+            string UserId= HidUserId.Value;
+            
+            
+                UserId = Request["UserId"] + "";
+            
+           
             if (string.IsNullOrEmpty(UserId))
             {
                 UserId = "-1"; //הוספת משתמש חדש

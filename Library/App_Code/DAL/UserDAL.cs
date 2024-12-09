@@ -52,14 +52,14 @@ namespace DAL
             {
                 User Tmp = new User()
                 {
-                    UserId = int.Parse(Dt.Rows[0]["UserId"] + ""),
-                    UserName = Dt.Rows[0]["UserName"] + "",
-                    Name = Dt.Rows[0]["Name"] + "",
-                    UserPass = Dt.Rows[0]["UserPass"] + "",
-                    Email = Dt.Rows[0]["Email"] + "",
-                    Phone = Dt.Rows[0]["Phone"] + "",
-                    Adress = Dt.Rows[0]["Adress"] + "",
-                    JoinDate = DateTime.Parse(Dt.Rows[0]["JoinDate"] + "")
+                    UserId = int.Parse(Dt.Rows[i]["UserId"] + ""),
+                    UserName = Dt.Rows[i]["UserName"] + "",
+                    Name = Dt.Rows[i]["Name"] + "",
+                    UserPass = Dt.Rows[i]["UserPass"] + "",
+                    Email = Dt.Rows[i]["Email"] + "",
+                    Phone = Dt.Rows[i]["Phone"] + "",
+                    Adress = Dt.Rows[i]["Adress"] + "",
+                    JoinDate = DateTime.Parse(Dt.Rows[i]["JoinDate"] + "")
 
                 };//מוסיף לרשימה 
                 LstTmp.Add(Tmp);
@@ -90,14 +90,12 @@ namespace DAL
             if (Tmp.UserId == -1)
             {
 
-                Sql = $"INSERT INTO T_Users (UserId,Name,UserName,UserPass,Email,Phone,Adress,JoinDate) Values ";
-                Sql += $" (N'{Tmp.UserId}',N'{Tmp.Name}',N'{Tmp.UserName}',N'{Tmp.UserPass}',N'{Tmp.Email}',N'{Tmp.Phone}',N'{Tmp.Adress}','{Tmp.JoinDate.ToString("yyyy-MM-dd")}')";
+                Sql = $"INSERT INTO T_Users (Name,UserName,UserPass,Email,Phone,Adress,JoinDate) Values ";
+                Sql += $" (N'{Tmp.Name}',N'{Tmp.UserName}',N'{Tmp.UserPass}',N'{Tmp.Email}',N'{Tmp.Phone}',N'{Tmp.Adress}','{Tmp.JoinDate.ToString("yyyy-MM-dd")}')";
             }
             else
-                
             {
                 Sql = $"UPDATE T_Users set ";
-                Sql += $"UserId=N'{Tmp.UserId}', ";
                 Sql += $"UserName=N'{Tmp.UserName}', ";
                 Sql += $"Name=N'{Tmp.Name}', ";
                 Sql += $"UserPass=N'{Tmp.UserPass}', ";
@@ -110,10 +108,10 @@ namespace DAL
 
             RecCount = Db.ExecuteNonQuery(Sql);
 
-            if (Tmp.UserId == -1)
-            {
-                Tmp.UserId = Db.GetMaxId("T_Users", "UserId");
-            }
+            //if (Tmp.UserId == -1)
+            //{
+            //    Tmp.UserId = Db.GetMaxId("T_Users", "UserId");
+            //}
 
 
             return RecCount;

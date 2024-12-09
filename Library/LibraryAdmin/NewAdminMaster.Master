@@ -84,12 +84,31 @@
               </svg>
             </a>
           </div>
-          <ul class="navbar-nav flex-fill w-100 mb-2">
+          
+                <ul class="navbar-nav flex-fill w-100 mb-2">
             <li class="nav-item dropdown">
-              <a href="/LibraryAdmin" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle nav-link">
-                <i class="fe fe-home fe-16"></i>
-                <span class="ml-3 item-text">ממשק ניהול ראשי</span><span class="sr-only">(נוכחי)</span>
+              <a href="#pages" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle nav-link">
+                <i class="fe fe-file fe-16"></i>
+                <span class="ml-3 item-text">התחברות</span>
               </a>
+              <ul class="collapse list-unstyled pl-4 w-100 w-100" id="pages">
+                <li class="nav-item">
+                  <a class="nav-link pl-3" href="Login.aspx">
+                    <span class="ml-1 item-text">כניסה לחשבון</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pl-3" href="/Register.aspx">
+                    <span class="ml-1 item-text">הירשם לאתר</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pl-3" href="LogOut.aspx">
+                    <span class="ml-1 item-text">התנתק</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
               <ul class="collapse list-unstyled pl-4 w-100" id="dashboard">
                 <li class="nav-item active">
                   <a class="nav-link pl-3" href="Default.aspx"><span class="ml-1 item-text">ראשי</span></a>
@@ -114,33 +133,21 @@
             <li class="nav-item dropdown">
               <a href="#ui-Book" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle nav-link">
                 <i class="fe fe-box fe-16"></i>
-                <span class="ml-3 item-text">ספר</span>
+                <span class="ml-3 item-text">ספרים</span>
               </a>
               <ul class="collapse list-unstyled pl-4 w-100" id="ui-Book">
                 <li class="nav-item">
-                  <a class="nav-link pl-3" href="./ui-color.html"><span class="ml-1 item-text">Colors</span>
+                  <a class="nav-link pl-3" href="ListBook.aspx"><span class="ml-1 item-text">רשימת ספרים</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link pl-3" href="./ui-typograpy.html"><span class="ml-1 item-text">Typograpy</span></a>
+                  <a class="nav-link pl-3" href="AddBook.aspx"><span class="ml-1 item-text">הוספת ספר חדש</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link pl-3" href="./ui-icons.html"><span class="ml-1 item-text">Icons</span></a>
+                  <a class="nav-link pl-3" href="./ui-icons.html"><span class="ml-1 item-text">רשימת ספרים במלאי</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link pl-3" href="./ui-buttons.html"><span class="ml-1 item-text">Buttons</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link pl-3" href="./ui-notification.html"><span class="ml-1 item-text">Notifications</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link pl-3" href="./ui-modals.html"><span class="ml-1 item-text">Modals</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link pl-3" href="./ui-tabs-accordion.html"><span class="ml-1 item-text">Tabs & Accordion</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link pl-3" href="./ui-progress.html"><span class="ml-1 item-text">Progress</span></a>
+                  <a class="nav-link pl-3" href="./ui-buttons.html"><span class="ml-1 item-text">רשימת ספרים מושאלים</span></a>
                 </li>
               </ul>
             </li>          
@@ -156,7 +163,7 @@
                   <a class="nav-link pl-3" href="UserList.aspx"><span class="ml-1 item-text">רשימת משתמשים</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link pl-3" href="AddUser.aspx"><span class="ml-1 item-text">הוספת משתמש</span></a>
+                  <a class="nav-link pl-3" href="UserAdd.aspx"><span class="ml-1 item-text">הוספת משתמש</span></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link pl-3" href="./table_datatables.html"><span class="ml-1 item-text">Data Tables</span></a>

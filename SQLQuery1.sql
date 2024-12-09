@@ -1,0 +1,1 @@
+﻿UPDATE T_Users set  Name= N'dgd', UserPass=N'', Email=N'eqeqeqe@gmail.com', Phone=N'0502022002', JoinDate='2020-01-15'  WHERE UserId=101
