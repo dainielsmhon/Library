@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\danie\\source\\repos\\Library\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|c:\\users\\danie\\source\\repos\\library\\library\\app_code\\bll\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|solutionrelative:library\\app_code\\bll\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|c:\\users\\danie\\source\\repos\\library\\library\\libraryadmin\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|solutionrelative:library\\libraryadmin\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|c:\\users\\danie\\source\\repos\\library\\library\\cities.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A02D437C-C5F5-448D-8987-1D8D59A28BBC}|Library\\Library.csproj|solutionrelative:library\\cities.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,23 +18,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\Library\\Library\\LibraryAdmin\\Default.aspx",
+              "RelativeDocumentMoniker": "Library\\LibraryAdmin\\Default.aspx",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\Library\\Library\\LibraryAdmin\\Default.aspx",
+              "RelativeToolTip": "Library\\LibraryAdmin\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-09T17:59:31.52Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\Library\\Library\\App_Code\\BLL\\Book.cs",
-              "RelativeDocumentMoniker": "Library\\App_Code\\BLL\\Book.cs",
-              "ToolTip": "C:\\Users\\danie\\source\\repos\\Library\\Library\\App_Code\\BLL\\Book.cs",
-              "RelativeToolTip": "Library\\App_Code\\BLL\\Book.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T16:55:42.242Z",
+              "DocumentIndex": 1,
+              "Title": "Cities.aspx",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\Library\\Library\\Cities.aspx",
+              "RelativeDocumentMoniker": "Library\\Cities.aspx",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\Library\\Library\\Cities.aspx",
+              "RelativeToolTip": "Library\\Cities.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-09T17:57:56.38Z",
               "EditorCaption": ""
             }
           ]
